@@ -13,6 +13,14 @@
 
   <header>
     <h1>Juan Joel Soto</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
@@ -21,7 +29,7 @@
       <article id="home">
         <div class='group'>
           <div class='item'>
-            <img src="images/linkedin.jpg" alt="Juan Soto LinkedIn Profile Photo" class="image-style">
+            <img src="images/linkedin.jpg" alt="Juan Soto LinkedIn Profile Photo" class="rounded">
         </div> <!-- CHECK SPACING ON THIS LINE FOR CORRECT LINE UP-->
 
         <div class='item'>
@@ -89,7 +97,17 @@
       <div class='group'>
 
         <div class='item'>
-          <p>Content Form Here</p>
+          <form action="#" method="POST">
+            <label for="user-name">Name:</label>
+            <input id="user-name" type="text" name="name">
+
+            <label for="user-email">Email:</label>
+            <input id="user-email" type="text" name="email">
+
+            <label for="user-message">Message:</label>
+            <textarea id="user-message" name="message"></textarea>
+            <button type="submit">Submit</button>
+          </form>
         </div>
         <div class='item'>
           <ul>
@@ -97,7 +115,7 @@
             <li><a href="mailto:Juan.Joel.Soto@Gmail.com">Email Me</a></li>
             <li><a href="https://www.linkedin.com/in/juan-soto-07689a9b/" target="_blank">LinkedIn</a></li>
             <li><a href="https://github.com/JuanJSoto">Github</a></li>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12234.44266926164!2d-75.21243861131872!3d39.95009756871759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c658962e50b9%3A0x340aefd494454594!2sUniversity%20City%2C%20Philadelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1593986336170!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe class="space" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12234.44266926164!2d-75.21243861131872!3d39.95009756871759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c658962e50b9%3A0x340aefd494454594!2sUniversity%20City%2C%20Philadelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1593986336170!5m2!1sen!2sus" width="" height="300" frameborder="" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
       </div>
       </article>
@@ -114,3 +132,19 @@
 </body>
 
 </html>
+
+<!-- HOTJAR FOR HTML FORMS -->
+<!-- Hotjar Tracking Code for https://juanjsoto.github.io/Portfolio-Module-8/ -->
+<!--
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1889446,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+-->
+

@@ -9,7 +9,7 @@ body{
 }
 
 img {
-  width: 100%;
+  width: 90%;
 }
 
 img.rounded {
@@ -19,7 +19,7 @@ img.rounded {
 main h2 {
   font-size: 28px;
   font-family: 'Montserrat Alternates', sans-serif;
-  font-weight; 400px;
+  font-weight: 400px;
 }
 
 main h3 {
@@ -37,7 +37,7 @@ main p {
 /* Header */
 
 header {
-  background-color: #6b655b;
+  background-color: #121ec2;
   margin-bottom: 40px;
   display: block;
 }
@@ -51,6 +51,28 @@ header h1 {
   font-size: 56px;
 }
 
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #eff0e5;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: 'Nanum Pen Script', cursive;
+}
 
 /* Main */
 
@@ -86,9 +108,9 @@ main .intro {
 
 /* Groups & Items (Desptop) */
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 600px) {
   .wrapper {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 
@@ -99,14 +121,20 @@ main .intro {
 
 /* ARTICLE SECTIONS */
 
-#home, #portfolio, #contact {
-  margin-bottom: 120px;
+#home, #portfolio {
+  margin-bottom: 100px;
 }
 
-/* ABOUT ARTICLE */
+/* ABOUT and CONTACT ARTICLE */
 
-#about {
-  background-color: #c5c0b8;
+#about, #contact {
+  background-color: #89b5da;
   padding: 20px 0 30px 0;
-  margin: 120px 0;
+  margin: 100px 0;
+}
+
+/* CONTACT FORM DESIGN */
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
 }
