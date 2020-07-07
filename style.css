@@ -11,6 +11,7 @@ body{
 img {
   width: 50%;
   height: 90%;
+  margin: margin-left;
 }
 
 img.rounded {
@@ -111,7 +112,7 @@ main .intro {
 }
 
 .item-centered {
-  text-aligned: center;
+  text-align: center;
 }
 
 /* Groups & Items (Desptop) */
