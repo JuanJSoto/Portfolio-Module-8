@@ -110,6 +110,10 @@ main .intro {
   margin: 10px;
 }
 
+.item-centered {
+  text-aligned: center;
+}
+
 /* Groups & Items (Desptop) */
 
 @media all and (min-width: 600px) {
