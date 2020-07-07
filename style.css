@@ -115,6 +115,12 @@ main .intro {
   text-align: center;
 }
 
+iframe { 
+  border-radius: 8px;
+  border: 1px solid;
+  width: 100%;
+}
+
 /* Groups & Items (Desptop) */
 
 @media all and (min-width: 600px) {
